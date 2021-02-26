@@ -1,0 +1,35 @@
+.header {
+  text-align: center;
+  margin-top: 1%;
+}
+.header img {
+  width: 200px;
+}
+
+.header nav {
+  background-color: black;
+  line-height: 40px;
+}
+.header nav::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.header a {
+  color: blanchedalmond;
+  margin-right: 7px;
+  text-decoration: none;
+  padding: 7px;
+  float: left;
+}
+.header > nav a:first-child {
+  margin-left: 5%;
+}
+.header a:hover {
+  background-color: gray;
+}
+@media screen and (max-width: 600px) {
+  .header a {
+    float: none;
+  }
+}

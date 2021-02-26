@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+}
+.cardContainer {
+  width: 20%;
+  float: right;
+}
+.productContainer {
+  width: 80%;
+  border-right: 1px solid lightgray;
+  
+}

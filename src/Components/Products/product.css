@@ -1,0 +1,16 @@
+.productMain{
+    margin-left: 5%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+}
+.productDetails{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: rgba(241, 196, 15,0.6);
+    border: 1px solid black;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
